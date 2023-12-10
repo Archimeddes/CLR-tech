@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<meta charset="utf-8">
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/CCLogo.png" />
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/sForm.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.mobilemenu.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script>
+		$(document).ready(function(){
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+			var owl=$("#owl");
+			owl.owlCarousel({
+				items : 1, 
+				navigation : true,
+				pagination :  false
+			});
+			var owl=$("#owl1");
+			owl.owlCarousel({
+				items : 1,
+				navigation : true,
+				pagination :  false
+			});
+		})
+		</script>
+	</head>
+	<body class="page1" id="top">
+		<header>
+			<div class="container_12">
+				<div class="grid_12">
+					<h1>
+						<a href="index.html">
+							<img src="images/CCLogo.png" alt="Your Happy Family">
+						</a>
+					</h1>
+					<div class="slogan">Value the environment around you</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="menu_block">
+				<div class="container_12">
+					<div class="grid_12">
+						<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+							<ul class="sf-menu">
+								<li><a href="index.php">Home</a></li>
+								<li><a href="index-1.php">Services</a></li>
+								<li><a href="index-3.php">Contacts</a></li>
+								<li><a href="index-login.php">Login</a></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</header>
+		<div class="content"><div class="ic">Hello</div>
+			<div class="container_12">
+				<div class="grid_4">
+					<div class="block1">
+						<div class="img_block">
+							<img src="images/WasteMaterials.jfif" alt="" class="img_inner">
+							<span class="l"></span>
+							<span class="ll"></span>
+							<span class="r"></span>
+							<span class="rr"></span>
+							<span class="lb"></span>
+							<span class="llb"></span>
+							<span class="rb"></span>
+							<span class="rrb"></span>
+						</div>
+						<div class="text1">Waste Materials</div><br>
+						<a href="#" class="btn">more</a>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="block1">
+						<div class="img_block">
+							<img src="images/NBageMan.jpg" alt="" class="img_inner">
+							<span class="l"></span>
+							<span class="ll"></span>
+							<span class="r"></span>
+							<span class="rr"></span>
+							<span class="lb"></span>
+							<span class="llb"></span>
+							<span class="rb"></span>
+							<span class="rrb"></span>
+						</div>
+						<div class="text1">Garbage Collector</div><br>
+						<a href="#" class="btn">more</a>
+					</div>
+				</div>
+				<div class="grid_4">
+					<div class="block1">
+						<div class="img_block">
+							<img src="images/RecylingMats.jfif" alt="" class="img_inner">
+							<span class="l"></span>
+							<span class="ll"></span>
+							<span class="r"></span>
+							<span class="rr"></span>
+							<span class="lb"></span>
+							<span class="llb"></span>
+							<span class="rb"></span>
+							<span class="rrb"></span>
+						</div>
+						<div class="text1">Recyling Materials</div><br>
+						<a href="#" class="btn">more</a>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="grid_4">
+					<h3>What We Do</h3>
+					<ul class="list">
+						<li><a href="#">Collect trash</a></li>
+						<li><a href="#">Seperate trash</a></li>
+						<li><a href="#">Cleaning the environment</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="bottom_block">
+			<div class="container_12">
+				<div class="grid_4 prefix_1">
+					<h3>About Us</h3>
+					<p class="col1">
+					
+					<a href="#"></a>
+					
+				</div>
+				<div class="grid_4">
+					<h3>Subscribe Now</h3>
+					<p>Subscribe now to get notified for updates</p>
+					<form id="newsletter">
+						<div class="rel">
+							<div class="success">Your subscribe request has been sent!</div>
+							<label class="email">
+								<input type="email" value="Enter your e-mail here..." >
+								<a href="#" class="" data-type="submit">submit</a>
+								<span class="error">*This is not a valid email address.</span>
+							</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container_12">
+				<div class="grid_12 ">
+					<div class="copy">
+						CC (C) <span id="copyright-year"></span>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+	</body>
+</html>

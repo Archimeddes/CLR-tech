@@ -1,0 +1,199 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f8fa;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1DA1F2;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.uploads {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.upload-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+
+.upload-form input[type="file"] {
+    margin-top: 10px;
+}
+
+.upload-form button {
+    background-color: #1DA1F2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-form button:hover {
+    background-color: #0d8af3;
+}
+
+@media only screen and (max-width: 600px) {
+    .header h1 {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dropdown {
+        margin-top: 15px;
+    }
+}
+.tweets {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+}
+.profile-container {
+    display: flex;
+    align-items: center; /* Align items vertically center */
+}
+.profile-pec {
+    margin-right:10px;
+}
+
+.profile-pic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display:block;
+
+}
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.enlarge-image img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.enlarged-image {
+    max-width: 100%; /* Adjust this value based on your design */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.tweet-content img {
+    max-width: 100%; /* Adjust this value based on your design */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.tweet-content {
+    flex-grow: 1;
+    height: 100px;
+    width: 100px;
+}
+
+.tweet h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #1DA1F2;
+}
+
+.tweet p {
+    margin: 5px 0;
+    font-size: 14px;
+}
